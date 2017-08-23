@@ -79,6 +79,11 @@
     <Content Include="css\woocommerce\fonts\WooCommerce.eot" />
     <Content Include="css\woocommerce\fonts\WooCommerce.ttf" />
     <Content Include="css\woocommerce\fonts\WooCommerce.woff" />
+    <Content Include="images\acilogo.png" />
+    <Content Include="images\custom-logo.png" />
+    <Content Include="images\logo_dark.png" />
+    <Content Include="images\slide-2-1.png" />
+    <Content Include="images\spor.png" />
     <Content Include="js\mediaelement\silverlightmediaelement.xap" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">

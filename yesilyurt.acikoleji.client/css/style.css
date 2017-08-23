@@ -1,4 +1,4 @@
-@charset 'utf-8';
+﻿@charset 'utf-8';
 /*
 Theme Name: Education
 Theme URI: http://education.themerex.net/
@@ -1148,7 +1148,7 @@ label.required:after {
 
 /* Logo in the header */
 .menu_main_wrap .logo {
-	margin-top:2em;
+	margin-top:1px;
 	margin-bottom:1em;
 }
 

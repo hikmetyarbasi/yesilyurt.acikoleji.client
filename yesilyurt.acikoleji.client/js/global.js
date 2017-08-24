@@ -157,33 +157,41 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
 	"use strict";
 	THEMEREX_GLOBALS['ppp'] = 6;
-	jQuery(".isotope_filters.isotope-courses-streampage").append('<a href="#" data-filter="*" class="isotope_filters_button active">All</a><a href="#" data-filter=".flt_55" class="isotope_filters_button">Language</a><a href="#" data-filter=".flt_43" class="isotope_filters_button">Marketing</a><a href="#" data-filter=".flt_57" class="isotope_filters_button">Social</a><a href="#" data-filter=".flt_52" class="isotope_filters_button">Medicine</a><a href="#" data-filter=".flt_53" class="isotope_filters_button">Computers</a>');
+	//jQuery(".isotope_filters.isotope-courses-streampage").append('<a href="#" data-filter="*" class="isotope_filters_button active">Hepsi</a>' +
+	//    '<a href="#" data-filter=".flt_55" class="isotope_filters_button">AnaOkulu</a>' +
+	//    '<a href="#" data-filter=".flt_43" class="isotope_filters_button">Ýlkokul</a>' +
+	//    '<a href="#" data-filter=".flt_57" class="isotope_filters_button">Ortaokul</a>' +
+ //       '<a href="#" data-filter=".flt_52" class="isotope_filters_button">Spor Branþlarý</a>' +
+ //       '<a href="#" data-filter=".flt_52" class="isotope_filters_button">Sanat Programý</a>' +
+ //       '<a href="#" data-filter=".flt_52" class="isotope_filters_button">Ýngilizce Programý</a>' +
+	//    '<a href="#" data-filter=".flt_52" class="isotope_filters_button">Deðerler Eðitimi</a>' +
+	//    '<a href="#" data-filter=".flt_53" class="isotope_filters_button">Matematik Programý</a>');
 });
 
 jQuery(document).ready(function() {
 	"use strict";
 	THEMEREX_GLOBALS['ppp'] = 8;
-	jQuery(".isotope_filters.portfolio-page-2-columns").append('<a href="#" data-filter="*" class="isotope_filters_button active">All</a><a href="#" data-filter=".flt_34" class="isotope_filters_button">medical</a><a href="#" data-filter=".flt_32" class="isotope_filters_button">masonry</a><a href="#" data-filter=".flt_33" class="isotope_filters_button">english</a>');
+	//jQuery(".isotope_filters.portfolio-page-2-columns").append('<a href="#" data-filter="*" class="isotope_filters_button active">All</a><a href="#" data-filter=".flt_34" class="isotope_filters_button">medical</a><a href="#" data-filter=".flt_32" class="isotope_filters_button">masonry</a><a href="#" data-filter=".flt_33" class="isotope_filters_button">english</a>');
 });
 
 
 jQuery(document).ready(function() {
 	"use strict";
 	THEMEREX_GLOBALS['ppp'] = 8;
-	jQuery(".isotope_filters.portfolio-page-3-columns").append('<a href="#" data-filter="*" class="isotope_filters_button active">All</a><a href="#" data-filter=".flt_34" class="isotope_filters_button">medical</a><a href="#" data-filter=".flt_32" class="isotope_filters_button">masonry</a><a href="#" data-filter=".flt_33" class="isotope_filters_button">english</a>');
+	//jQuery(".isotope_filters.portfolio-page-3-columns").append('<a href="#" data-filter="*" class="isotope_filters_button active">All</a><a href="#" data-filter=".flt_34" class="isotope_filters_button">medical</a><a href="#" data-filter=".flt_32" class="isotope_filters_button">masonry</a><a href="#" data-filter=".flt_33" class="isotope_filters_button">english</a>');
 });
 
 
 jQuery(document).ready(function() {
 	"use strict";
 	THEMEREX_GLOBALS['ppp'] = 9;
-	jQuery(".isotope_filters.masonry-page-2-columns").append('<a href="#" data-filter="*" class="isotope_filters_button active">All</a><a href="#" data-filter=".flt_34" class="isotope_filters_button">medical</a><a href="#" data-filter=".flt_32" class="isotope_filters_button">masonry</a><a href="#" data-filter=".flt_33" class="isotope_filters_button">english</a><a href="#" data-filter=".flt_35" class="isotope_filters_button">computer</a>');
+	//jQuery(".isotope_filters.masonry-page-2-columns").append('<a href="#" data-filter="*" class="isotope_filters_button active">All</a><a href="#" data-filter=".flt_34" class="isotope_filters_button">medical</a><a href="#" data-filter=".flt_32" class="isotope_filters_button">masonry</a><a href="#" data-filter=".flt_33" class="isotope_filters_button">english</a><a href="#" data-filter=".flt_35" class="isotope_filters_button">computer</a>');
 });
 
 jQuery(document).ready(function() {
 	"use strict";
 	THEMEREX_GLOBALS['ppp'] = 9;
-	jQuery(".isotope_filters.masonry-page-3-columns").append('<a href="#" data-filter="*" class="isotope_filters_button active">All</a><a href="#" data-filter=".flt_34" class="isotope_filters_button">medical</a><a href="#" data-filter=".flt_32" class="isotope_filters_button">masonry</a><a href="#" data-filter=".flt_33" class="isotope_filters_button">english</a><a href="#" data-filter=".flt_35" class="isotope_filters_button">computer</a>');
+	//jQuery(".isotope_filters.masonry-page-3-columns").append('<a href="#" data-filter="*" class="isotope_filters_button active">All</a><a href="#" data-filter=".flt_34" class="isotope_filters_button">medical</a><a href="#" data-filter=".flt_32" class="isotope_filters_button">masonry</a><a href="#" data-filter=".flt_33" class="isotope_filters_button">english</a><a href="#" data-filter=".flt_35" class="isotope_filters_button">computer</a>');
 });
 
 

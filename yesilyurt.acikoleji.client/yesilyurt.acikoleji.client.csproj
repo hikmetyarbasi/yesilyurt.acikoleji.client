@@ -80,11 +80,17 @@
     <Content Include="css\woocommerce\fonts\WooCommerce.ttf" />
     <Content Include="css\woocommerce\fonts\WooCommerce.woff" />
     <Content Include="images\acilogo.png" />
+    <Content Include="images\alaettin_iseri.png" />
+    <Content Include="images\ali_koc.PNG" />
     <Content Include="images\custom-logo.png" />
     <Content Include="images\logo_dark.png" />
     <Content Include="images\slide-2-1.png" />
+    <Content Include="images\slide-2-2.png" />
     <Content Include="images\spor.png" />
+    <Content Include="images\user_1.jpg" />
+    <Content Include="images\user_2.jpg" />
     <Content Include="js\mediaelement\silverlightmediaelement.xap" />
+    <Content Include="images\slide 2.psd" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -895,6 +895,7 @@ label.required:after {
 /* Boxed style for articles and sidebar */
 .page_content_wrap {
 	padding: 3.125em 0;
+  
 }
 /*
 .article_style_boxed .page_content_wrap {
@@ -1148,7 +1149,7 @@ label.required:after {
 
 /* Logo in the header */
 .menu_main_wrap .logo {
-	margin-top:1px;
+	margin-top:2em;
 	margin-bottom:1em;
 }
 

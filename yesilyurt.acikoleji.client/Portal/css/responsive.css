@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 /* Responsive styles
 -------------------------------------------------------------- */
@@ -15,7 +15,7 @@ Apple iPod Touch (5th generation)
 	.slider_boxed, .content_wrap, .content_container {	width:1000px; }
 
 	/* Content and Sidebar */
-	.sidebar_show .content { width: 700px; }
+	.sidebar_show .content { width: 100%; }
 	.sidebar { 				 width: 250px; }
 	
 	/* Fullwide or Fullscreen with sidebar */

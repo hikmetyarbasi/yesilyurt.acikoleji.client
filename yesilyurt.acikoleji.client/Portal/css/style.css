@@ -1483,7 +1483,7 @@ label.required:after {
 	float:right;
 }
 .page_top_wrap.page_top_title .breadcrumbs {
-	max-width:49%;
+	max-width:90%;
 }
 .page_top_wrap .breadcrumbs .breadcrumbs_item {
 	white-space:nowrap; 

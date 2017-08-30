@@ -34,8 +34,9 @@
     <link rel="stylesheet" href="css/responsive.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/skins/skin-responsive.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/slider-style.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="css/custom-style.css" type="text/css" media="all" />
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom-style.css" type="text/css" media="all" />
 </head>
 
 <body class="home page body_style_fullscreen body_filled article_style_stretch layout_single-standard top_panel_style_dark top_panel_opacity_transparent top_panel_show top_panel_over menu_right user_menu_show sidebar_hide">
@@ -113,6 +114,10 @@
                                 </li>
                                 <li class="menu-item menu-item-has-children">
                                     <a href="about-us.html">Hakkımızda</a>
+
+                                </li>
+                                <li class="menu-item menu-item-has-children">
+                                    <a href="galeri.html">Galeri</a>
 
                                 </li>
                                 <li class="menu-item menu-item-has-children">
@@ -805,7 +810,7 @@
                                             <img src="images/insankaynakları.png" />
                                             <div class="sc_section font-w_400 margin_top_1em_imp">
                                                 <p>
-                                                    <a id="ik_a" class="menuhizmeter_color" href="#">
+                                                    <a id="ik_a" class="menuhizmeter_color" href="#ikModal">
                                                         İnsan Kaynakları
                                                     </a>
                                                 </p>
@@ -826,7 +831,7 @@
                                             <img src="images/eokul.png" />
                                             <div class="sc_section font-w_400 margin_top_1em_imp sc_tabs" data-active="0">
                                                 <p>
-                                                    <a id="k12_a" class="menuhizmeter_color" href="#">
+                                                    <a id="k12_a" class="menuhizmeter_color" href="javascript:void(0)">
                                                         K12
                                                     </a>
                                                 </p>
@@ -898,27 +903,148 @@
     <!-- /Body -->
     <a href="#" class="scroll_to_top icon-up-2" title="Scroll to top"></a>
 <div class="custom_html_section"></div>
-<div id="ymModal" class="modal hide fade">
+<div id="ymModal" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Confirmation</h4>
+                <h4 class="modal-title">Aylık Yemek Menüsü</h4>
             </div>
             <div class="modal-body">
-                <p>Do you want to save changes you made to document before closing?</p>
-                <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+                <div class="sc_section" data-animation="animated fadeInUp normal">
+                    <div class="sc_table width_100per">
+                        <table>
+                            <tbody>
+                            <tr>
+                                <th class="width_10per">Tarih</th>
+                                <th>Menü</th>
+                                <th>Kalori</th>
+                            </tr>
+                            <tr class="text_center">
+                                <td>01.01.2018</td>
+                                <td>Merçimek Çorba, Sulu Köfte,Makarna</td>
+                                <td>1300</td>
+                            </tr>
+                            <tr class="text_center">
+                                <td>01.01.2018</td>
+                                <td>Merçimek Çorba, Sulu Köfte,Makarna</td>
+                                <td>1300</td>
+                            </tr>
+                            <tr class="text_center">
+                                <td>01.01.2018</td>
+                                <td>Merçimek Çorba, Sulu Köfte,Makarna</td>
+                                <td>1300</td>
+                            </tr>
+                            <tr class="text_center">
+                                <td>01.01.2018</td>
+                                <td>Merçimek Çorba, Sulu Köfte,Makarna</td>
+                                <td>1300</td>
+                            </tr>
+                            <!--<tr class="text_center">
+                                <td colspan="2" class="text_right">Total:</td>
+                                <td>$11.110</td>
+                            </tr>-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Tamam</button>
             </div>
         </div>
     </div>
 </div>
+
     
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div id="shModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Servis Hizmetleri</h4>
+            </div>
+            <div class="modal-body">
+                <div class="sc_section" data-animation="animated fadeInUp normal">
+                
+                    <div class="columns_wrap sc_columns sc_columns_count_3">
+                        <!--<div class="column-1_3 sc_column_item sc_column_item_1 odd first">
+                            <ol class="sc_list sc_list_style_ol">
+                                <li class="sc_list_item odd first">Lorem ipsum dolor sit </li>
+                                <li class="sc_list_item even">Amet, consectetur </li>
+                                <li class="sc_list_item odd">Eiusmod tempor dolore </li>
+                                <li class="sc_list_item even">Ut enim ad minim veniam </li>
+                                <li class="sc_list_item odd">Quis nostrud exercitation </li>
+                            </ol>
+                        </div>-->
+                        <!--<div class="column-1_3 sc_column_item sc_column_item_2 even">
+                            <ul class="sc_list sc_list_style_iconed">
+                                <li class="sc_list_item odd first">
+                                    <span class="sc_list_icon icon-right-2"></span>Lorem ipsum dolor sit
+                                </li>
+                                <li class="sc_list_item even">
+                                    <span class="sc_list_icon icon-right-2"></span>Amet, consectetur
+                                </li>
+                                <li class="sc_list_item odd">
+                                    <span class="sc_list_icon icon-right-2"></span>Eiusmod tempor dolore
+                                </li>
+                                <li class="sc_list_item even">
+                                    <span class="sc_list_icon icon-right-2"></span>Ut enim ad minim veniam
+                                </li>
+                                <li class="sc_list_item odd">
+                                    <span class="sc_list_icon icon-right-2"></span>Quis nostrud exercitation
+                                </li>
+                            </ul>
+                        </div>-->
+                        <div class="column-1_3 sc_column_item sc_column_item_3 odd">
+                            <ul class="sc_list sc_list_style_iconed">
+                                <li class="sc_list_item odd first">
+                                    <span class="sc_list_icon icon-check-2"></span>Okul Servisi
+                                </li>
+                                <li class="sc_list_item even">
+                                    <span class="sc_list_icon icon-check-2"></span>Online Eğitim
+                                </li>
+                                <li class="sc_list_item odd sc_list_st1">
+                                    <span class="sc_list_icon icon-delete-2 sc_list_st2"></span>Bireysel Eğitimler
+                                </li>
+                                <li class="sc_list_item even">
+                                    <span class="sc_list_icon icon-check-2"></span>Rehberlik ve Danışmanlık hizmetleri
+                                </li>
+                                <li class="sc_list_item odd">
+                                    <span class="sc_list_icon icon-check-2"></span>Okul sonrası test ve alıştırma dökümanları
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Tamam</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="ikModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">İnsan Kaynakları</h4>
+            </div>
+            <div class="modal-body">
+                <iframe id="cartoonVideo" width="560" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Tamam</button>
+            </div>
+        </div>
+    </div>
+</div>   
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery/jquery-migrate.min.js"></script>
     <script type="text/javascript" src="js/jquery/ui/core.min.js"></script>
@@ -959,25 +1085,7 @@
   
 
 <script type="text/javascript">
-    $(window).on('load', function () {
-
-        $('#ym_a').on('click',new function() {
-            
-           // $("#ymModal").modal('show');
-        });
-        $('#sh_a').on('click',new function() {
-
-            $("#shModal").modal('show');
-        });
-        $('#ik_a').on('click',new function() {
-
-            $("#ikModal").modal('show');
-        });
-        $('#k12_a').on('click',new function() {
-
-            $("#k12Modal").modal('show');
-        });
-    });
+   
    
 </script>
 </body>

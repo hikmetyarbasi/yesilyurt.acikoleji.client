@@ -1,4 +1,18 @@
 /* CSS-file with custom styles - don't delete this file! */
+
+.modal {
+    position: fixed;
+    z-index: 10040;
+    overflow: auto;
+    overflow-y: auto;
+}
+body.modal-open {
+    overflow: visible;
+}
+.modal-content iframe{
+    margin: 0 auto;
+    display: block;
+}
 .custom_rule { color: inherit; }
 
 /* Page title */

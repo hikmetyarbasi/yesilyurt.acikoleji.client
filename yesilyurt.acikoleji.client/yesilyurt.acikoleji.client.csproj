@@ -110,11 +110,14 @@
     <Content Include="Portal\css\woocommerce\fonts\WooCommerce.eot" />
     <Content Include="Portal\css\woocommerce\fonts\WooCommerce.ttf" />
     <Content Include="Portal\css\woocommerce\fonts\WooCommerce.woff" />
+    <Content Include="Portal\galeri.html" />
     <Content Include="Portal\ilkokul.html" />
     <Content Include="Portal\images\mainslider1_ex.jpg" />
     <Content Include="Portal\images\mainslider2_ex.jpg" />
     <Content Include="Portal\images\mainslider3_ex.jpg" />
     <Content Include="Portal\images\slide 2.psd" />
+    <Content Include="Portal\js\bootstrap.min.js" />
+    <Content Include="Portal\js\jquery.min.js" />
     <Content Include="Portal\js\mediaelement\silverlightmediaelement.xap" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">

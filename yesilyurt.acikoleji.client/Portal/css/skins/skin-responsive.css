@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 /* Responsive styles
 -------------------------------------------------------------- */
@@ -41,7 +41,7 @@ Apple iPod Touch (4th generation)
 		font-size:0.8461em;
 	}
 	.page_top_wrap.page_top_title .breadcrumbs {
-		padding: 2em 0 1em 2.5em;
+		padding: 1em;
 	}
 	
 	/* Post layouts */

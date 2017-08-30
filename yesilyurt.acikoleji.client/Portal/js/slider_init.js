@@ -228,6 +228,26 @@ jQuery(document).ready(function() {
 			hideAllCaptionAtLilmit: 0,
 			startWithSlide: 0
 		});
-	}
-	
+    }
+    //$("#ymModal").modal('show');
+
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#ikModal").on('hide.bs.modal', function () {
+        var iframe = $(this).find("iframe");
+        iframe.attr("src", iframe.attr("src"));
+    });
+
+
+    $("#ym_a").click(function () {
+        $("#ymModal").modal('show');
+    });
+    $("#sh_a").click(function () {
+        $("#shModal").modal('show');
+    });
+    $("#ik_a").click(function () {
+        $("#ikModal").modal('show');
+    });
+    
+
 });

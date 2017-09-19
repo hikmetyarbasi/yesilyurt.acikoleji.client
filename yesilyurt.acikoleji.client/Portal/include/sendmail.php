@@ -1,7 +1,7 @@
 <?php 
 global $_REQUEST;
 $response = array('error'=>'');
-$contact_email = 'your_mail@mail.com';
+$contact_email = 'hikmetyarbasi@yahoo.com';
 
 // type
 $type = $_REQUEST['type'];	

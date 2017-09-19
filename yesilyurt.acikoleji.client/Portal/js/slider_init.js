@@ -233,6 +233,10 @@ jQuery(document).ready(function() {
 
     /* Assign empty url value to the iframe src attribute when
     modal hide, which stop the video playing */
+
+  
+   
+
     $("#ikModal").on('hide.bs.modal', function () {
         var iframe = $(this).find("iframe");
         iframe.attr("src", iframe.attr("src"));
@@ -247,6 +251,9 @@ jQuery(document).ready(function() {
     });
     $("#ik_a").click(function () {
         $("#ikModal").modal('show');
+    });
+    $("#gs_a").click(function () {
+        $("#gsModal").modal('show');
     });
     
 

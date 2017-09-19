@@ -60,6 +60,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,input,textarea,button,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, address, section, video, audio {
+    
 	font-family: inherit;
 	font-size: 100%;
 	font-style: inherit;
@@ -95,7 +96,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 
 h1, h2, h3, h4, h5, h6 { line-height:120%; }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, address { margin: 0; }
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, address { margin: 0; color: black
+}
 p, ul, ol, dl, blockquote, address { margin-bottom: 1.5em; }
 li > ol, li > ul { margin-bottom:0; }
 ul>li, ol>li, dl>dd { margin-bottom:0.5em; }
@@ -1877,7 +1879,6 @@ blockquote cite {
 	left: 0;
 	right: 0;
 	bottom:0;
-	height:25%;
 	padding: 10px 16px;
 	overflow:hidden;
 }
@@ -2989,6 +2990,7 @@ blockquote cite {
 	vertical-align:middle;
 	display:inline-block;
 	margin-right:0.3em;
+    color: #000000;
 }
 .layout_single-courses article > .post_info:not(.post_info_bottom) .post_info_item + .post_info_item:before,
 .layout_single-courses .content_wrap > .post_info:not(.post_info_bottom) .post_info_item + .post_info_item:before {

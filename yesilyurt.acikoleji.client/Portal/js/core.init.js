@@ -4,7 +4,53 @@
 jQuery(document).ready(function() {
 	"use strict";
 	THEMEREX_GLOBALS['theme_init_counter'] = 0;
-	themerex_init_actions();
+    themerex_init_actions();
+    jQuery("#ana_isodetail").click(function () {
+        var ahref = jQuery('#ana_isofilter');
+        ahref.parents('.isotope_filters').find('a').removeClass('active');
+        ahref.addClass('active');
+        var selector = ahref.data('filter');
+        ahref.parents('.isotope_filters').siblings('.isotope_wrap').eq(0).isotope({
+            filter: selector
+        });
+    });
+    jQuery("#ilk_isodetail").click(function () {
+        var ahref = jQuery('#ilk_isofilter');
+        ahref.parents('.isotope_filters').find('a').removeClass('active');
+        ahref.addClass('active');
+        var selector = ahref.data('filter');
+        ahref.parents('.isotope_filters').siblings('.isotope_wrap').eq(0).isotope({
+            filter: selector
+        });
+    });
+    $("#orta_isodetail").click(function () {
+        var ahref = jQuery('#orta_isofilter');
+        ahref.parents('.isotope_filters').find('a').removeClass('active');
+        ahref.addClass('active');
+        var selector = ahref.data('filter');
+        ahref.parents('.isotope_filters').siblings('.isotope_wrap').eq(0).isotope({
+            filter: selector
+        });
+    });
+    $("#spor_isodetail").click(function () {
+        var ahref = jQuery('#spor_isofilter');
+        ahref.parents('.isotope_filters').find('a').removeClass('active');
+        ahref.addClass('active');
+        var selector = ahref.data('filter');
+        ahref.parents('.isotope_filters').siblings('.isotope_wrap').eq(0).isotope({
+            filter: selector
+        });
+    });
+    $("#prog_isodetail").click(function () {
+        var ahref = jQuery('#prog_isofilter');
+        ahref.parents('.isotope_filters').find('a').removeClass('active');
+        ahref.addClass('active');
+        var selector = ahref.data('filter');
+        ahref.parents('.isotope_filters').siblings('.isotope_wrap').eq(0).isotope({
+            filter: selector
+        });
+    });
+
 });
 
 
@@ -859,7 +905,12 @@ function themerex_init_isotope() {
 	if (!all_images_complete && THEMEREX_GLOBALS['isotope_init_counter']++ < 30) {
 		setTimeout(themerex_init_isotope, 200);
 		return;
-	}
+    }
+    var ahref = jQuery('#all_isofilter');
+    var selector = ahref.data('filter');
+    ahref.parents('.isotope_filters').siblings('.isotope_wrap').eq(0).isotope({
+        filter: selector
+    });
 
 	// Isotope filters handler
 	jQuery('.isotope_filters:not(.inited)').addClass('inited').on('click', 'a', function(e) {

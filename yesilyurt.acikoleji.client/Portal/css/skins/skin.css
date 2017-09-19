@@ -807,7 +807,7 @@ input[type="checkbox"]:checked + label:before {
 
 /* Page Title */
 .page_top_wrap .page_title {
-	padding:0.6667em 0;
+	padding:0.2667em 0;
 	line-height:1em;
 }
 
@@ -818,7 +818,7 @@ input[type="checkbox"]:checked + label:before {
 	line-height:1em;
 }
 .page_top_wrap.page_top_title .breadcrumbs {
-	padding: 3.9167em 0 1em 2.5em;
+	/*padding: 3.9167em 0 1em 2.5em;*/
 }
 .page_top_wrap .breadcrumbs .breadcrumbs_item {
 	border-radius:			4px;

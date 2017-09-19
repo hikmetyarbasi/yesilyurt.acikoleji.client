@@ -98,6 +98,7 @@
     <None Include="packages.config" />
     <Content Include="Portal\anaokulu.html" />
     <Content Include="Portal\anaokulu_dilcalismasi.html" />
+    <Content Include="Portal\cozumortaklarimiz.html" />
     <Content Include="Portal\css\anaokulu.css" />
     <Content Include="Portal\css\font-face\Amadeus\360504151-Amadeus.eot" />
     <Content Include="Portal\css\font-face\Amadeus\360504151-Amadeus.ttf" />
@@ -112,9 +113,9 @@
     <Content Include="Portal\css\woocommerce\fonts\WooCommerce.eot" />
     <Content Include="Portal\css\woocommerce\fonts\WooCommerce.ttf" />
     <Content Include="Portal\css\woocommerce\fonts\WooCommerce.woff" />
-    <Content Include="Portal\cozumortaklarımız.html" />
     <Content Include="Portal\galeri.html" />
     <Content Include="Portal\ilkokul.html" />
+    <Content Include="Portal\images\acilogo_200x200.png" />
     <Content Include="Portal\images\anaokulu.jpg" />
     <Content Include="Portal\images\anaokulu_bilim.png" />
     <Content Include="Portal\images\anaokulu_header.jpg" />
@@ -123,6 +124,10 @@
     <Content Include="Portal\images\anaokulu_tematikogrenme.jpg" />
     <Content Include="Portal\images\anaokulu_tematikogrenme_75x75.jpg" />
     <Content Include="Portal\images\calendar_icon.png" />
+    <Content Include="Portal\images\cozumortak1.JPG" />
+    <Content Include="Portal\images\cozumortak2.JPG" />
+    <Content Include="Portal\images\cozumortak3.JPG" />
+    <Content Include="Portal\images\cozumortaklari_header.jpg" />
     <Content Include="Portal\images\eokul.png" />
     <Content Include="Portal\images\galeri_1.jpg" />
     <Content Include="Portal\images\galeri_10.jpg" />
@@ -159,6 +164,8 @@
     <Content Include="Portal\images\mainslider1_ex.jpg" />
     <Content Include="Portal\images\mainslider2_ex.jpg" />
     <Content Include="Portal\images\mainslider3_ex.jpg" />
+    <Content Include="Portal\images\meeting.jpg" />
+    <Content Include="Portal\images\ogretmengorusme.png" />
     <Content Include="Portal\images\okulumuz.jpg" />
     <Content Include="Portal\images\ortaokul.jpg" />
     <Content Include="Portal\images\ortaokul_akademik.jpg" />
